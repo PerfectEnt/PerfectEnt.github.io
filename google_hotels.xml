@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.gstatic.com/localfeed/local_feed.xsd">
+  <language>en</language>
+  <listing>
+    <id>123456</id>
+    <name>My Apartment</name>
+    <address format="simple">
+      <component name="addr1">1117 Warner Street</component>
+      <component name="city">Chico</component>
+      <component name="postal_code">95926</component>
+      <component name="province">CA</component>
+    </address>
+    <country>US</country>
+    <latitude>40.730610</latitude>
+    <longitude>-73.935242</longitude>
+    <phone type="main">12345678</phone>
+    <category>hotel</category> <!-- You can use whatever property type categories you wish -->
+    <content>
+      <text type="description">
+        <link>https://examplelisting.com/listings/12345</link>
+        <title>3 bedrooms with ocean views</title>
+        <body>Stay in this newly renovated 3BR house with ocean views.</body>
+        <date month="7" day="23" year="2017"/>
+      </text>
+      <review type="editorial">
+        <link>https://example.com/reviews/42</link>
+        <title>A little piece of heaven</title>
+        <author>EXAMPLE.COM</author>
+        <rating>8</rating>
+        <body>This place is really good.</body>
+      </review>
+      <review type="user">
+        <link>https://exampleperson.org/reviews/82</link>
+        <author>Susan von Trapp</author>
+        <rating>6</rating>
+        <body>Not a bad place, but I prefer to be closer to the beach.</body>
+        <date day="6" month="7" year="2017"/>
+        <servicedate day="16" month="6" year="2017"/>
+      </review>
+      <attributes>
+        <website>https://hotel.example.com</website>
+        <client_attr name="rating">8.2</client_attr>
+        <client_attr name="star_rating">4</client_attr>
+        <client_attr name="num_reviews">14</client_attr>
+        <client_attr name="air_conditioned">Yes</client_attr>
+        <client_attr name="has_beach_access">No</client_attr>
+        <client_attr name="has_free_breakfast">Yes</client_attr>
+        <client_attr name="has_spa">No</client_attr>
+        <client_attr name="number_of_rooms">5</client_attr>
+        <client_attr name="pets_allowed">Yes</client_attr>
+        <client_attr name="wheelchair_accessible">Yes</client_attr>
+        <client_attr name="kitchen_availability">Available in all rooms</client_attr>
+        <client_attr name="parking_type">No payment required</client_attr>
+        <client_attr name="swimming_pool_type">Indoors</client_attr>
+        <client_attr name="wifi_type">Paid</client_attr>
+      </attributes>
+      <image type="photo" url="https://image_url">
+        <link>https://image_url</link>
+        <title>Main hotel picture</title>
+      </image>
+    </content>
+  </listing>
+  ...
+</listings>
