@@ -4,9 +4,9 @@
     <DisplayNames display_text="TravelAgency.com" display_language="en"/>
     <DisplayNames display_text="TravelAgency.com.fr" display_language="fr"/>
     <Match status="yes" language="en"/>
-    <Match status="yes" language="fr"/>
+	    <!--    <Match status="yes" language="fr"/> -->
     <Match status="yes" country="US"/>
-    <Match status="yes" country="FR"/>
+	    <!-- <Match status="yes" country="FR"/> -->
     <Match status="yes" currency="USD"/>
     <Match status="yes" currency="EUR"/>
     <URL>http://partner.com/landing?hid=(PARTNER-HOTEL-ID)&amp;checkin=(CHECKINYEAR)-(CHECKINMONTH)-(CHECKINDAY)&amp;checkout=(CHECKOUTYEAR)-  (CHECKOUTMONTH)-(CHECKOUTDAY)&amp;language=(USER-LANGUAGE)</URL>
