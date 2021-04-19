@@ -3,6 +3,7 @@
 <head>
 	<title>Nearby Stays</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-signin-client_id" content="177139518671-k0f1etqatc1r0ejfnumiltkpa4p4d0ov.apps.googleusercontent.com">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JPQLDMW0Y"></script>
 <script>
@@ -65,6 +66,7 @@
 <body style="font-family:Verdana;">
 
 <div style="background-color:#f1f1f1;padding:15px;">
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
 <script charset="utf-8" src="//www.travelpayouts.com/widgets/7de9f3e0d8d48a0e7ee7aec4a17b20a8.js?v=2104" async></script>
 <!--<script src="//tp.media/content?promo_id=4132&shmarker=317042&campaign_id=121&trs=56224&locale=en&powered_by=true&border_radius=0&plain=false&color_button=%232681ff&color_button_text=%23ffffff&color_border=%232681ff" charset="utf-8"></script>-->
 </div>
@@ -72,7 +74,16 @@
     </div>
   </div>
 </div>
-
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>
+  function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    console.log('ID: ' + profile.getId());
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail());
+  }
+</script>
 </body>
 </html>
 
