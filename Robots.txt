@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Sitemap: http://www.nearbystays.com/sitemap.xml
+Sitemap: https://www.nearbystays.com/sitemap.xml
+Sitemap: nearbystays.com/sitemap.xml
+Sitemap: http://nearbystays.com/sitemap.xml
+Sitemap: https://nearbystays.com/sitemap.xml
