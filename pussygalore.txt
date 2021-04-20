@@ -1,2 +1,0 @@
-curl -H 'Content-Type: application/json' --data '{url: "https://www.nearbystays.com"}' 'https://searchconsole.googleapis.com/v1/urlTestingTools/mobileFriendlyTest:run?key=AIzaSyDKl8Jvr8mzLcPkQ7fubBb4fGOqPHGvE9w'
-
